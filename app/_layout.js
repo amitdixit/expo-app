@@ -22,7 +22,13 @@ const Layout = () => {
         return null;
     }
 
-    return <Stack onLayout={onLayoutRootView} />;
+    // return <Stack onLayout={onLayoutRootView} />;
+
+    return (
+        <Stack initialRouteName="home">
+            <Stack.Screen name="home" />
+        </Stack>
+    )
 }
 
 export default Layout;
