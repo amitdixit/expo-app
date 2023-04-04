@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "first-app",
+    "slug": "first-app",
+    "extra": {
+      "eas": {
+        "projectId": "4a38ffaf-ced6-4705-99a3-8f4caf2880d9"
+      }
+    },
+    "android": {
+      "package": "com.amit.dixit.firstapp"
+    }
+  }
+}
